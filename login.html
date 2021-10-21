@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/svBurgerStyle.css">
+    <title>Document</title>
+</head>
+<body id="logBody">
+    
+    <h1>svBurger</h1>
+    <div >
+    <img class="img1" src="/images/burger.jpg" alt="burger">
+    <div class="divForm">
+    <form id="form" >
+      
+        <input id="mail" class="user" name = "username" type="text" placeholder="Email"><br>
+        <input id="pass" class="user" name = "password" type="password" placeholder="Password"><br>
+        
+    </form>
+<button onclick="chekUser()" class="signButton" >sign in</button>
+    <script>
+        function chekUser(){
+            let mail = document.getElementById("mail").value;
+            let passwor = document.getElementById("pass").value;
+            if(mail == 'aliza@gmail.com' && passwor == 'aliza!'){
+                window.location.href= '/menu'
+            }
+            else{
+                alert('Incorrect email or password')
+            }
+            
+        }
+    </script>
+</div>
+</div>
+</body>
+</html>

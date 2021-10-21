@@ -1,0 +1,134 @@
+
+
+body{
+  background-color: rgb(26, 25, 25);
+}
+#logBody , #homeBody{
+  font-size: xx-large;
+  background-color: rgb(26, 25, 25);
+}
+h1{
+  color: bisque;
+text-align: center;
+}
+.img1{
+  
+ position: relative;
+ margin-left: auto;
+ margin-right: auto;
+
+  display: block;
+
+}
+.divForm{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.userButton{
+  font-size: 20px;
+background-color: bisque;
+height: 35px;
+width: 200px;
+}
+.userButton:hover{
+  background-color: rgb(251, 206, 151);
+}
+.user{
+  font-size: 16px;
+  margin-bottom: 3px;
+  background-color: bisque;
+height: 30px;
+width: 190px;
+}
+.signButton{
+  background-color: bisque;
+  font-size: 18px;
+  width: 120;
+  margin-left: 55px;
+ 
+}
+#h1reg{
+  font-size: 70px;
+  color: bisque;
+text-align: center;
+margin-bottom: 0px;
+}
+h2{
+  font-size:40px;
+  color: bisque;
+text-align: center;
+margin-top: 0px;
+}
+.regDe{
+  background-color: bisque;
+  font-size: 18px;
+  width: 300px;
+height: 30px;
+margin-bottom: 10px;
+}
+#divForm3{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 70px;
+}
+#next{
+  background-color: bisque;
+  font-size: 18px;
+  width: 120;
+  margin-left: 125px;
+}
+#succsesLog{
+  font-size: 20px;
+  background-color: bisque;
+  height: 35px;
+  width: 200px;
+  margin-left: 180px;
+}
+#succsesLog:hover{
+  background-color: rgb(246, 194, 130);
+}
+#table{
+  background-color: rgb(39, 38, 38) ;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+td{
+  color:  bisque ;
+  border: 2px cornsilk solid;
+  border-collapse: collapse;
+}
+#imgUp{
+  width: 350px;
+  height: 250px;
+  position: relative;
+  display: block;
+
+}
+#humburger220{
+  width: 400px;
+  height: 300px;
+}
+p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.menuButtons{
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: black;
+  color: bisque;
+  height: 40px;
+  width: 130px;
+  border: 2px bisque solid;
+  margin-bottom: 7px;
+  margin-top: 5px;
+  font-size: 15px;
+}
+.menuButtons:hover{
+  background-color: rgb(29, 28, 28)  ;
+}

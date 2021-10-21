@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/svBurgerStyle.css">
+    <title>Document</title>
+</head>
+<body id="logBody">
+    <div>
+    <h1>SV-Burger menu</h1>
+    <p id="nameSer"> </p>
+    <h2>CHOOSE YOUR BURGER</h2>
+    
+    </div>
+<table id="table">
+    <tr>
+     <td> <img id="humburger220" src="/images/humburger1.jpeg" alt="burger">
+        <br>
+    <p>Humburger 220 g - 11$ </p> <button onclick="payPage()" class="menuButtons">I want that</button> 
+    </td>
+        <td><img id="humburger220" src="/images/humburger2.jpg" alt="burger">
+            <br>
+            <p>Humburger 300 g - 14$ </p><button onclick="payPage()" class="menuButtons">I want that</button> </td>
+        <td><img id="humburger220" src="/images/humburgermashroom.jpg" alt="burger">
+            <br>
+            <p>mashroomburger - 12$</p>
+            <button onclick="payPage()" class="menuButtons">I want that</button> </td>
+    </tr>
+    <tr>
+        <td><img id="humburger220" src="/images/humandfrise.jpg" alt="burger">
+            <br>
+            <p>Double burger 440 g - 15$  </p>
+            <button onclick="payPage()" class="menuButtons">I want that</button> </td>
+        <td><img id="humburger220" src="/images/veganburger.jpeg" alt="burger">
+            <br>
+            <p>veggie burger - 14$ </p>
+            <button onclick="payPage()" class="menuButtons">I want that</button> </td>
+        <td><img id="humburger220" src="/images/f.jpg" alt="burger">
+            <br>
+            <p>Only fries - 5$ </p>
+            <button onclick="payPage()" class="menuButtons">I want that</button> </td>
+    </tr>
+    
+</table>
+
+<script>
+ 
+    function payPage(){
+        window.location.href= '/pay'
+    }
+</script>
+</body>
+</html>
